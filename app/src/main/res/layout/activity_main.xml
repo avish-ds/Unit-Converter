@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#605E5E"
+    android:id="@+id/constraint">
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT CONVERTER"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="35dp"
+        android:textColor="#FFA014"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:textSize="15dp"
+        android:inputType="number"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:textSize="15dp"
+        android:inputType="number"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner"
+        android:id="@+id/tto"/>
+
+    <Button
+        android:id="@+id/bfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FROM"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="250dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FDFDFA"
+        android:backgroundTint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
+    <Button
+        android:id="@+id/bto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TO"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="250dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FDFDFA"
+        android:backgroundTint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
+
+    <Button
+        android:id="@+id/bselect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT"
+        android:layout_marginBottom="65dp"
+        android:backgroundTint="#008EFF"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bto"
+        app:layout_constraintStart_toEndOf="@+id/bfrom"
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
+    <Button
+        android:id="@+id/bconvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONVERT"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#008EFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bto"
+        app:layout_constraintStart_toEndOf="@+id/bfrom"
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
+</androidx.constraintlayout.widget.ConstraintLayout>
