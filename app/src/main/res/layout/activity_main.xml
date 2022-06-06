@@ -99,7 +99,6 @@
         android:layout_marginTop="50dp"
         android:backgroundTint="#008EFF"
         android:textSize="17dp"
-        android:background="@drawable/round_button"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bto"
