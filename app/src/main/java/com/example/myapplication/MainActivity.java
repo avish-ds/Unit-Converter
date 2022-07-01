@@ -10,7 +10,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    Button b1,b2;
+    Button b1,b2,b3;
 
     ConstraintLayout mCLayout;
 
@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b2=findViewById(R.id.b2);
         b2.setOnClickListener(this);
 
+        b3=findViewById(R.id.b3);
+        b3.setOnClickListener(this);
+
     }
     @Override
     public void onClick(View v) {
@@ -38,6 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else if(v.equals(b2)){
             Intent intent = new Intent(this, MainActivityFeet.class);
+            startActivity(intent);
+        }
+        else if(v.equals(b3)){
+            Intent intent = new Intent(this, MainActivityKG.class);
             startActivity(intent);
         }
 
