@@ -5,9 +5,14 @@
       <map>
         <entry key="..\:/MAD project/app/src/main/res/drawable/round_corners.xml" value="0.166" />
         <entry key="..\:/MAD project/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MAD project/app/src/main/res/layout/activity_main_cgpa.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD project/app/src/main/res/layout/activity_main_decimal.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD project/app/src/main/res/layout/activity_main_feet.xml" value="0.20416666666666666" />
-        <entry key="..\:/MAD project/app/src/main/res/layout/activity_main_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD project/app/src/main/res/layout/activity_main_hex.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD project/app/src/main/res/layout/activity_main_home.xml" value="0.22" />
         <entry key="..\:/MAD project/app/src/main/res/layout/activity_main_kg.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD project/app/src/main/res/layout/activity_main_percent.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD project/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
         <entry key="..\:/Unit-Converter/app/src/main/res/drawable/round_button.xml" value="0.2265" />
         <entry key="..\:/Unit-Converter/app/src/main/res/layout/activity_main.xml" value="0.176" />
       </map>
